@@ -39,7 +39,7 @@ public class CadastroTela extends AppCompatActivity {
     EditText editCod, editDesc, editPlaca, editPontoDeRef, editLatitude, editLongitude;
     Button btnLimpar, btnSalvar, btnExcluir, btnConsultar;
     ListView lista;
-
+    
     ClienteDataBase bd = new ClienteDataBase(this);
     ArrayAdapter<String> adapter;
     ArrayList<String> arrayList;
@@ -180,6 +180,17 @@ public class CadastroTela extends AppCompatActivity {
         editPontoDeRef.setText("");
         editLatitude.setText("");
         editLongitude.setText("");
+        editDesc.requestFocus();
+
+    }
+    
+        public void setarCampos() {
+        editCod.setText("Código");
+        editDesc.setText("Descrição");
+        editPlaca.setText("Placa");
+        editPontoDeRef.setText("Ponto de Referência");
+        editLatitude.setText("Latitude");
+        editLongitude.setText("Longitude");
         editDesc.requestFocus();
 
     }
