@@ -38,16 +38,16 @@ public class Cliente {
         return cod;
     }
 
-    public void setCod(int cod) {
-        this.cod = cod;
+    public void setCod(int codigo) {
+        this.cod = codigo;
     }
 
     public String getDesc() {
         return desc;
     }
 
-    public void setDesc(String desc) {
-        this.desc = desc;
+    public void setDesc(String descricao) {
+        this.desc = descricao;
     }
 
     public String getPlaca() {
@@ -62,8 +62,8 @@ public class Cliente {
         return pontoDeRef;
     }
 
-    public void setPontoDeRef(String pontoDeRef) {
-        this.pontoDeRef = pontoDeRef;
+    public void setPontoDeRef(String pontoDeReferencia) {
+        this.pontoDeRef = pontoDeReferencia;
     }
 
     public String getLatitude() {
