@@ -183,15 +183,4 @@ public class CadastroTela extends AppCompatActivity {
         editDesc.requestFocus();
 
     }
-    
-        public void setarCampos() {
-        editCod.setText("Código");
-        editDesc.setText("Descrição");
-        editPlaca.setText("Placa");
-        editPontoDeRef.setText("Ponto de Referência");
-        editLatitude.setText("Latitude");
-        editLongitude.setText("Longitude");
-        editDesc.requestFocus();
-
-    }
 }
